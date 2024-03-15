@@ -8,7 +8,7 @@ To study and verify the truth table of logic gates in Quartus II using Verilog p
 
 Software – Quartus prime 
 
-**Theory**
+**Theory:**
 
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
@@ -49,7 +49,7 @@ Y= A⊕B
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-**Procedure** 
+**Procedure:** 
 
 1.	Type the program in Quartus software.
 
@@ -64,6 +64,10 @@ Y= A⊕B
 
 **PROGRAM:**
 
+Program for logic gates and verify its truth table in quartus using Verilog programming:
+
+
+```
 module LOGICGATES(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
 input a,b;
 output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
@@ -76,23 +80,16 @@ xor(xorgate,a,b);
 xnor(xnorgate,a,b);
 endmodule
 
+```
+
+Developed by: V. POOJAA SREE
+RegisterNumber: 212223040147
 
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
- 
-**Logic symbol & Truthtable**
-
-**RTL realization Output:** 
-
-
-![Screenshot 2024-03-15 102457](https://github.com/VPOOJAASREE/study-of-basic-gates/assets/155145525/79ac8781-1fd4-4426-86c7-f11ae7903d66)
-
-
-
-**RTL**
+**Output:**
+![alt text](<Screenshot 2024-03-15 102457.png>)
 
 **Result:**
 
+Thus "Study and verify the truth table of logic gates in Quartus II using Verilog programming" has completed successfully.
 
